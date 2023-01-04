@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["./src"],
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "target": "es5",
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "outDir": "lib/esm",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
+}

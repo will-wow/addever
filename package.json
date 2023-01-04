@@ -1,0 +1,13 @@
+{
+  "name": "addever",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write '**/*.{ts,json,md}'"
+  },
+  "devDependencies": {
+    "prettier": "2.8.1",
+    "turbo": "^1.6.3"
+  }
+}
